@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Reservation - Food Corner</title>
+</head>
+
+<body>
+    <hr>
+    <nav>
+        <a href="index.html">Home</a> | &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="about.html">About Us</a> | &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="menu.html">Menu</a> | &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="reservation.html"> Reservation</a> | &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="contact.html">Contact</a> | &nbsp;&nbsp;&nbsp;&nbsp; 
+    </nav>
+     <hr><hr>
+    <center>
+        <h1>🍽️ Food Corner</h1>
+        <h2>Table Reservation</h2>
+
+        <form>
+            <table cellpadding="10">
+
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phone">Phone:</label></td>
+                    <td><input type="tel" id="phone" name="phone" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="date">Date:</label></td>
+                    <td><input type="date" id="date" name="date" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="time">Time:</label></td>
+                    <td><input type="time" id="time" name="time" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="guests">Number of Guests:</label></td>
+                    <td>
+                        <select id="guests" name="guests">
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5">5 People</option>
+                            <option value="6">6 People</option>
+                            <option value="7">7 People</option>
+                            <option value="8">8 People</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="occasion">Occasion:</label></td>
+                    <td>
+                        <select id="occasion" name="occasion">
+                            <option value="none">None</option>
+                            <option value="birthday">Birthday</option>
+                            <option value="anniversary">Anniversary</option>
+                            <option value="business">Business Meeting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="message">Special Request:</label></td>
+                    <td>
+                        <textarea id="message" name="message" rows="4" cols="25"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Reserve Table">
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+        <br>
+
+    </center>
+    <hr>
+         <center><p><h5>@ Visit Food Corner and enjoy delicious food with your loved ones!</h5></p></center>
+    <hr>
+
+</body>
+</html>
